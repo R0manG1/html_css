@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Div</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            height: 100vh;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+        }
+        .cornflowerblue{
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .cornflowerblue p{
+            /*text-align: center;*/
+        }
+        .cornflowerblue img{
+            width: 50%;
+        }
+        .mediumseagreen{
+            background-color: mediumseagreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .mediumseagreen img{
+            width: 60%;
+        }
+        .palevioletred{
+            background-color: palevioletred;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .palevioletred img{
+            width: 70%;
+        }
+        .flex-container{
+            height: 100%;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="box cornflowerblue">
+        <p>Brilliant</p>
+        <img src="https://pngimg.com/d/brilliant_PNG41.png" alt="brilliant">
+    </div>
+    <div class="box mediumseagreen">
+        <p>Emerald</p>
+        <img src="https://png.pngtree.com/png-vector/20241108/ourmid/pngtree-detailed-faceted-green-gemstone-for-designers-png-image_14307312.png" alt="emerald">
+    </div>
+    <div class="box palevioletred">
+        <p>Ruby</p>
+        <img src="https://pngimg.com/d/ruby_PNG1.png" alt="ruby">
+    </div>
+</div>
+
+</body>
+</html>
