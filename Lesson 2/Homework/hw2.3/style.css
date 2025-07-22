@@ -7,7 +7,7 @@ body{
 }
 .wrapper{
     height: 800px;
-    background-color: #415e32;
+    background-color: #325e33;
     display: flex;
     justify-content: center;
     align-content: flex-start;
@@ -18,7 +18,7 @@ body{
 .card{
     width: 200px;
     height: 150px;
-    background-color: #9fcc91;
+    background-color: #a2dda7;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
