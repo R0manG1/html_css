@@ -69,4 +69,40 @@ main button:hover{
     transition: 1s;
     color: #9dc0d6;
 }
+.main-contact p{
+    margin-top: 20px;
+}
+.address-contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 200px;
+    margin-top: 40px;
+    text-transform: none;
+    font-style: normal;
+}
+.first-section .second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.second-section div img{
+    width: 50px;
+    height: 50px;
+}
+.second-section div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.images-box{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 25vw;
+}
 
