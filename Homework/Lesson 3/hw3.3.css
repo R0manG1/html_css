@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    gap: 30px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
+section p{
+    width: 90%;
+}
+.top-section{
+    background-color: coral;
+}
+.main-section{
+    background-color: skyblue;
+}
+.bottom-section{
+    background-color: palegreen;
+}
+section a{
+    font-size: 100px;
+    color: #000000;
+}
