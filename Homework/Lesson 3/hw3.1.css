@@ -1,0 +1,32 @@
+body{
+    margin: 20px;
+}
+header{
+    height: 60vh;
+    background-color: dodgerblue;
+}
+section{
+    height: 50vh;
+    width: 32.5%;
+    background-color: #124f88;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+footer{
+    height: 80vh;
+    background-color: dodgerblue;
+}
+header, section, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
