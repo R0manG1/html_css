@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        .card{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            border: 5px solid #2c2c2c;
+        }
+        .green{
+            background-color: forestgreen;
+            order: 2;
+        }
+        .blue{
+            background-color: dodgerblue;
+            order: 1;
+        }
+        .orange{
+            background-color: orange;
+            order: -1;
+        }
+        .red{
+            background-color: darkred;
+        }
+        .yellow{
+            background-color: yellow;
+            order: -2;
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="card green"></div>
+    <div class="card blue"></div>
+    <div class="card orange"></div>
+    <div class="card red"></div>
+    <div class="card yellow"></div>
+</div>
+
+</body>
+</html>
