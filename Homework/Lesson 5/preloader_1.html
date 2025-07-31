@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preload</title>
+    <style>
+        *{
+            margin: 0;
+        }
+      .dots{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c5cdca;
+      }
+      .dots span{
+          font-size: 40px;
+          color: #54309c;
+      }
+      .dots .first{
+          font-size: 60px;
+      }
+      @keyframes dots_animation_1{
+          0%{
+              transform: translateY(0);
+          }
+          30%{
+              transform: scale(0.7);
+          }
+          50%{
+              transform: translateY(0);
+          }
+          70%{
+              transform: rotate(20deg);
+          }
+          100%{
+              transform: translateY(0);
+          }
+      }
+        @keyframes dots_animation_2{
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(-50deg) translate(10px, -10px);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+      .dots .second{
+          animation: dots_animation_1 3s ease-in-out infinite normal;
+      }
+      .dots .third{
+          animation: dots_animation_2 1s ease-in-out infinite alternate;
+      }
+
+
+    </style>
+</head>
+<body>
+<div class="dots">
+    <span class="first">(</span>
+    <span class="third">つ</span>
+    <span>˵</span>
+    <span class="second">◕</span>
+    <span>ω</span>
+    <span class="second">◕</span>
+    <span>˵</span>
+    <span class="first">)</span>
+    <span class="third">つ</span>
+</div>
+
+</body>
+</html>
