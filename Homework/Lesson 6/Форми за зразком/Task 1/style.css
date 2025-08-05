@@ -15,6 +15,8 @@ body{
 .registration-form{
     width: 33vw;
     height: 38vh;
+    min-width: 320px;
+    min-height: 250px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -38,7 +40,8 @@ body{
     align-items: center;
 }
 input[type="text"], input[type="password"]{
-    width: 300px;
+    width: 65%;
+    max-width: 300px;
     height: 28px;
     margin: 10px auto;
     padding: 0 10px;
@@ -47,7 +50,8 @@ input[type="text"], input[type="password"]{
 }
 form>div{
     margin-top: 10px;
-    width: 300px;
+    width: 65%;
+    max-width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
