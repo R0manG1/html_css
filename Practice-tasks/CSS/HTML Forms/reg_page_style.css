@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #dadada;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background-color: whitesmoke;
+    color: #212121;
+    font-family: "Nata Sans", sans-serif;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    position: relative;
+}
+.title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #d30073;
+    letter-spacing: -1px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 30px;
+}
+.title::before{
+    width: 18px;
+    height: 18px;
+}
+.title::after{
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+}
+.title::before, .title::after{
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-color: #d30073;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 9px;
+    left: 5px;
+}
+@keyframes pulse {
+    0%{
+        transform: scale(0.9);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.7);
+        opacity: 0;
+    }
+}
+.sign_in, .message{
+    font-size: 14px;
+    text-align: center;
+}
+.sign_in a{
+    color: #d30073;
+}
+.sign_in a:hover{
+    font-weight: 600;
+    color: #00d3c1;
+    text-decoration-color: #00d3c1;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+.form label{
+    position: relative;
+}
+.form label .input{
+    width: 100%;
+    outline: 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 20px 5px 5px 10px;
+}
+.form label .input + span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 16px;
+    cursor: text;
+    color: #bcbcbc;
+    transition: 0.3s ease;
+}
+.form label .input:placeholder-shown + span{
+    top: 10px;
+    font-size: 0.9em;
+}
+.form label .input:focus + span,
+form label .input:valid + span{
+    top: 0;
+    color: #d30073;
+    font-size: 12px;
+    font-weight: 600;
+}
+.submit {
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #d30073;
+    font-size: 16px;
+    transition: 0.3s ease;
+    background-color: whitesmoke;
+    border: 1px solid #d30073;
+}
+
+.submit:hover {
+    background-color: #d30073;
+    color: whitesmoke;
+}
