@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position - Relative + Absolute</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            gap: 50px;
+        }
+        .card{
+            margin-top: 20vh;
+            width: 14vw;
+            height: 40vh;
+            background-color: #9dc0d6;
+            position: relative;
+            border: 2px solid #306f9c;
+            border-radius: 10px;
+        }
+        .sale{
+            width: 10vh;
+            height: 7vh;
+            background-color: #ffca56;
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            border-radius: 10px;
+            border: 2px solid #a58237;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="sale"></div>
+</div>
+<div class="card">
+    <div class="sale"></div>
+</div>
+<div class="card">
+    <div class="sale"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position - Relative + Absolute</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            gap: 50px;
+
+        }
+        .card{
+            margin-top: 20vh;
+            width: 250px;
+            height: 300px;
+            background-color: #9dc0d6;
+            position: relative;
+            border-radius: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-top: 50px;
+            flex-direction: column;
+            text-align: center;
+            font-size: 14px;
+        }
+        .sale{
+            width: 100px;
+            height: 70px;
+            background-color: #9dc0d6;
+            position: absolute;
+            border-radius: 20px 20px 0 0;
+            top: -30px;
+            z-index: -1;
+        }
+        .sale_bottom{
+            width: 100px;
+            height: 70px;
+            background-color: #9dc0d6;
+            position: absolute;
+            border-radius: 0 0 20px 20px;
+            bottom: -30px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="sale"></div>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur distinctio ducimus esse, id impedit labore laboriosam nemo neque nesciunt praesentium?</p>
+    <div class="sale_bottom"></div>
+</div>
+<div class="card">
+    <div class="sale"></div>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur distinctio ducimus esse, id impedit labore laboriosam nemo neque nesciunt praesentium?</p>
+    <div class="sale_bottom"></div>
+</div>
+<div class="card">
+    <div class="sale"></div>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur distinctio ducimus esse, id impedit labore laboriosam nemo neque nesciunt praesentium?</p>
+    <div class="sale_bottom"></div>
+</div>
+
+</body>
+</html>
