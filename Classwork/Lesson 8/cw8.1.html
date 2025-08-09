@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Align-self</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 10px;
+            height: 50vh;
+            background-color: rgb(205, 205, 205);
+        }
+        .box{
+            width: 80px;
+            height: 80px;
+            background-color: rgb(108, 115, 188);
+            border-radius: 10px;
+        }
+        .item1{
+            align-self: flex-start;
+        }
+        .item2{
+            align-self: center;
+        }
+        .item3{
+            align-self: flex-end;
+        }
+        .item4{
+            align-self: center;
+        }
+        .item5{
+            align-self: flex-start;
+        }
+        .item6{
+            align-self: center;
+        }
+        .item7{
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box item1"></div>
+        <div class="box item2"></div>
+        <div class="box item3"></div>
+        <div class="box item4"></div>
+        <div class="box item5"></div>
+        <div class="box item6"></div>
+        <div class="box item7"></div>
+    </div>
+</body>
+</html>
