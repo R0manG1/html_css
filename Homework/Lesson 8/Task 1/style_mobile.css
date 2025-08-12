@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px){
+    .images_bord{
+        width: 100%;
+        gap: 40px;
+        padding: 32px 16px;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
