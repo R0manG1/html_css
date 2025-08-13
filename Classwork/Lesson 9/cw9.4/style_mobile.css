@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .grid_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 15% 35% 35% 15%;
+        grid-template-areas:
+        "header header"
+        "left_aside right_aside"
+        "main main"
+        "footer footer";
+    }
+    .left_aside{
+        background: #b9c0b9;
+    }
+    .right_aside{
+        background: #bcb8c2;
+    }
+}

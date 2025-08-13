@@ -1,0 +1,8 @@
+.carousel slide {
+    height: 40vh;
+    width: 80%;
+}
+.carousel-item img {
+    height: 40vh;
+    object-fit: cover;
+}
