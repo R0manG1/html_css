@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+    .input-form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left-form, .right-form{
+        width: 100%;
+    }
+    .wrapper .title{
+        width: 200px;
+        text-align: center;
+    }
+}
